@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Condensed&display=swap');
+
+body {
+    font-family: "Lobster", "Roboto", "Condensed";
+    padding-top: 150px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin: 0;
+    background-color: #e0def4;
+}
+
+/* Header*/
+
+header {
+    background-color: #84b4b1;
+    color: #fff;
+    text-align: center;
+    padding: 30px 0 120px;
+}
+
+header h1 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 65px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: .8;
+    padding-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header h1 span {
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    font-size: 25px;
+    line-height: 1;
+}
+
+header p {
+    padding-top: 30px;
+}
+
+
+/* icons*/
+
+
+
+/*Thank you for shopping!*/
+
+
+

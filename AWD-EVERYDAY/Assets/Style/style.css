@@ -1,0 +1,222 @@
+@import url('https://fonts.cdnfonts.com/css/gemseatrial');
+
+body {
+    font-family: 'gemseatrial', serif;
+    background: #bdb2ff;
+}
+
+.box-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start; 
+    margin: 15vh 15vw;
+    
+}
+.box {
+    width: 150px;
+    height: 40px;
+    border: 3px solid rgb(255, 255, 255);
+    margin: 10px;
+    cursor: pointer;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); 
+    transition: all 0.3s ease; 
+    border-radius: 20px;
+}
+
+.box:hover {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2), 
+                -3px -3px 10px rgba(19, 13, 13, 0.5);
+    transform: scale(1.1); 
+}
+
+.box1 { background-color: #ffadad; }
+.box2 { background-color: #ffd6a5; }
+.box3 { background-color: #fdffb6; }
+.box4 { background-color: #caffbf; }
+.box5 { background-color: #9bf6ff; }
+.box6 { background-color: #ffc6ff; }
+.box7 { background-color: #bc00dd; }
+
+#big-box, #big-box1, #big-box2, #big-box3, #big-box4, #big-box5, #big-box6, #big-box7 {
+    position: absolute;
+    right: 15vw;
+    top: 15vh;
+    width: 300px; 
+    height: 300px; 
+    display: none; 
+    animation: moveDown 1.5s forwards, fadeOut 2s forwards;
+    border: 10px solid black; 
+    box-shadow: 0px 0px 10px 5px rgba(238, 236, 236, 0.1); 
+}
+
+#big-box1 { background-color: #ffadad; border-color: #ffadad; }
+#big-box2 { background-color: #ffd6a5; border-color: #ffd6a5; }
+#big-box3 { background-color: #fdffb6; border-color: #fdffb6; }
+#big-box4 { background-color: #caffbf; border-color: #caffbf; }
+#big-box5 { background-color: #9bf6ff; border-color: #9bf6ff; }
+#big-box6 { background-color: #ffc6ff; border-color: #ffc6ff; }
+#big-box7 { background-color: #bc00dd; border-color: #bc00dd; }
+
+@keyframes moveDown1 {
+    0% {
+        transform: translateY(-30%);
+    }
+    100% {
+        transform: translateY(100%); 
+    }
+}
+@keyframes moveDown2 {
+    0% {
+        transform: translateY(-30%);
+    }
+    100% {
+        transform: translateY(100%); 
+    }
+}
+
+@keyframes moveDown3 {
+    0% {
+        transform: translateY(-30%);
+    }
+    100% {
+        transform: translateY(100%); 
+    }
+}
+
+@keyframes moveDown4 {
+    0% {
+        transform: translateY(-30%);
+    }
+    100% {
+        transform: translateY(100%); 
+    }
+}
+
+@keyframes moveDown5 {
+    0% {
+        transform: translateY(-30%);
+    }
+    100% {
+        transform: translateY(100%); 
+    }
+}
+
+@keyframes moveDown6 {
+    0% {
+        transform: translateY(-30%);
+    }
+    100% {
+        transform: translateY(100%); 
+    }
+}
+
+@keyframes moveDown7 {
+    0% {
+        transform: translateY(-30%);
+    }
+    100% {
+        transform: translateY(100%); 
+    }
+}
+
+
+@keyframes fadeOut {
+    100% {
+        background-color: transparent;
+    }
+}
+
+@keyframes moveUp1 {
+    0% {
+        transform: translateY(100%);
+        background-color: transparent;
+    }
+    100% {
+        transform: translateY(-150%);
+        background-color: #ffadad;
+    }
+}
+
+@keyframes moveUp2 {
+    0% {
+        transform: translateY(100%);
+        background-color: transparent;
+    }
+    100% {
+        transform: translateY(-150%);
+        background-color: #ffd6a5;
+    }
+}
+
+@keyframes moveUp3 {
+    0% {
+        transform: translateY(100%);
+        background-color: transparent;
+    }
+    100% {
+        transform: translateY(-150%);
+        background-color: #fdffb6;
+    }
+}
+
+@keyframes moveUp4 {
+    0% {
+        transform: translateY(100%);
+        background-color: transparent;
+    }
+    100% {
+        transform: translateY(-150%);
+        background-color: #caffbf;
+    }
+}
+
+@keyframes moveUp5 {
+    0% {
+        transform: translateY(100%);
+        background-color: transparent;
+    }
+    100% {
+        transform: translateY(-150%);
+        background-color: #9bf6ff;
+    }
+}
+
+@keyframes moveUp6 {
+    0% {
+        transform: translateY(100%);
+        background-color: transparent;
+    }
+    100% {
+        transform: translateY(-150%);
+        background-color: #ffc6ff;
+    }
+}
+
+@keyframes moveUp7 {
+    0% {
+        transform: translateY(100%);
+        background-color: transparent;
+    }
+    100% {
+        transform: translateY(-150%);
+        background-color: #bc00dd;
+    }
+}
+
+.name-display {
+    font-family: cursive;
+    width: 170px;
+    text-align: left;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0; 
+    background-color: lightblue;
+    box-shadow: 5px 0px 10px rgba(0, 0, 0, 0.3);
+    border-radius: 20px 20px 0 0;
+}

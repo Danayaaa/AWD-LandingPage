@@ -55,7 +55,7 @@ header {
     border-bottom: 5px solid #DE8DC5; 
     padding: 10px; 
     width: 100%; 
-    background: url('./Pics/pics/header.png');
+    background: url('../Pics/pics/header.png');
     color: #ffffff;
     height: 130px;
 }

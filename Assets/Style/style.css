@@ -1,5 +1,9 @@
 @import url('https://fonts.cdnfonts.com/css/montserrat');
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     color: #272727;
     font-family: 'Montserrat', sans-serif;
@@ -15,6 +19,8 @@ a {
 }
 
 .row {
+    display: flex;
+    justify-content: center;
     width: 100%;
     max-width: 1170px;
     margin: 0 auto;
@@ -36,9 +42,8 @@ a {
 }
 
 header {
-    height: 700px;
+    height: 100vh;
     width:100%;
-    margin-bottom: 50px;
 }
 
 .header-bg {
@@ -54,9 +59,12 @@ header {
     border-top: 5px solid #DE8DC5; 
     border-bottom: 5px solid #DE8DC5; 
     padding: 10px; 
-    width: 100%; 
+    width: 100vw; 
     color: #ffffff;
-    height: 130px;
+    height: 20vh;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    z-index: 1;
 }
 
 .header {
@@ -69,8 +77,8 @@ header {
     position: absolute;
     width: 100%;
     height: 100%;
-    z-index: -1;
     object-fit: cover;
+    z-index: 1;
 }
 
 *,
@@ -86,7 +94,7 @@ html {
 
 .main{
   max-width: 1450px;
-  margin-bottom: 100px;
+  padding: 1px 0;
   
 }
 
@@ -135,11 +143,14 @@ img {
     list-style: none;
     margin: 30px;
     padding: 0;
+    margin-bottom: 50px;
 }
 
 .project_items {
     display: flex;
     padding: 1rem;
+    width: 100vw; 
+    height: 70vh; 
     transition: transform 0.3s ease-in-out;
     
 }
@@ -187,6 +198,7 @@ a {
 @media (min-width: 40rem) {
     .project_items {
         width: 50%;
+
     }
 }
 
@@ -195,3 +207,6 @@ a {
         width: 33.3333%;
     }
 }
+
+
+
